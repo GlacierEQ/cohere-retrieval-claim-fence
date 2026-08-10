@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/cohere-retrieval-claim-fence",
+  "source_sha": "67938068221266b35ff2a6132f9f1a6d41a38feb46ee741560b2d6f2f741c545",
+  "proof_id": "elite-cohere-retrieval-claim-fence-1786356649",
+  "environment": {
+    "python": "/Users/kcbflux/.local/bin/python3.11",
+    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/cohere-retrieval-claim-fence:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/cohere-retrieval-claim-fence/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T10:10Z",
+  "artifact_hashes": {
+    "operability_receipt": "1256d80a26fda139bba0a69be81acdef8374caa590d2279b96fc68a438933877"
+  }
+}

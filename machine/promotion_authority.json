@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/cohere-retrieval-claim-fence",
+  "source_sha": "67938068221266b35ff2a6132f9f1a6d41a38feb46ee741560b2d6f2f741c545",
+  "proof_receipt_digest": "8d588f77b7b79643520d387679025c765c17420bac68e8da491e711ae333c233",
+  "not_after": 1788948649.730054,
+  "mac": "8ebedd8c74cd65a20cb086f017cbfa00776239a977958b114f12c5acec332fbd",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}

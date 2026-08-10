@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/cohere-retrieval-claim-fence",
+  "capabilities": [
+    {
+      "id": "retrieval-claim-fence",
+      "name": "Retrieval Claim Fence",
+      "status": "SCAFFOLD",
+      "module": "src/retrieval_claim_fence.py"
+    }
+  ]
+}

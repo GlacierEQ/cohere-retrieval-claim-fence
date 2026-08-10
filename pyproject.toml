@@ -1,0 +1,10 @@
+[project]
+name = "cohere-retrieval-claim-fence"
+version = "0.0.1"
+description = "Scaffold: Retrieval Claim Fence (independent Cohere lens)"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
